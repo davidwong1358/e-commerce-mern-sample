@@ -1,0 +1,21 @@
+#manage-prod-container {
+    max-width: 960px;
+}
+
+#create-prod-form {
+    max-width: 1080px;
+}
+
+#edit-prod-form {
+    max-width: 1080px;
+}
+
+#search-term {
+    width: 120px;
+}
+
+@media only screen and (max-width: 767px){
+    .term-search-btn{
+        width:100%;
+    }
+}

@@ -1,0 +1,27 @@
+#toggle-pw-btn-1 {
+    position: absolute;
+    top: 12px;
+    right: 4px;
+    z-index: 9;
+    outline: none !important;
+    box-shadow: none;
+}
+
+#toggle-pw-btn-2 {
+    position: absolute;
+    top: 12px;
+    right: 4px;
+    z-index: 9;
+    outline: none !important;
+    box-shadow: none;
+}
+
+
+#reg-form-container {
+    max-width: 550px;
+    margin: auto;
+}
+
+.was-validated .form-control:invalid, .form-control.is-invalid {
+    background-image: none !important;
+}

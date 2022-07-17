@@ -1,0 +1,38 @@
+.cart-prod-img {
+    width: 128px;
+    height: 128px;
+    object-fit: contain;
+}
+
+#cart-container {
+    max-width: 1280px;
+    margin: 0.5rem auto;
+}
+
+.num-box {
+    width: 1.5rem;
+}
+
+@media only screen and (max-width: 991px){
+    .delete-btn {
+        width: 100%;
+    }
+    #prod-header {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .cart-prod-img {
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (min-width: 576px){
+    .desc-mobile{
+        display: none;
+
+    }
+}
+

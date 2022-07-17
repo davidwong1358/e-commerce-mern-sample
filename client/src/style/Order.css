@@ -1,0 +1,14 @@
+#manage-order-container {
+    max-width: 960px;
+}
+
+@media only screen and (max-width: 575px){
+    .view-order-btn {
+        margin-top: 0.5rem;
+        width: 100%;
+    }
+}
+
+#order-detail-container {
+    max-width: 1080px;
+}

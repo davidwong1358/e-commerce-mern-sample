@@ -1,0 +1,6 @@
+@media only screen and (max-width: 768px){
+    .offcanvas{
+        max-width: 60% !important;
+    }
+    
+}

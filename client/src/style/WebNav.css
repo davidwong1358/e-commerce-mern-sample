@@ -1,0 +1,42 @@
+.counter {
+    top: -8px !important;
+    left: -10px !important;
+}
+
+.nav-btn:hover svg {
+    fill: #dc3545;
+}
+
+.nav-btn:hover strong {
+    color: #dc3545;
+}
+
+.nav-btn:hover span {
+    color: #dc3545;
+}
+
+#mobile-search-icon:hover svg {
+    fill: #dc3545;
+}
+
+.dropdown-toggle::after {
+    display: none !important; 
+}
+
+.search-bar-input:focus {
+    box-shadow: 0 0 0 0.25rem rgb(248 249 250 / 50%) !important;
+}
+
+@media only screen and (max-width: 800px) {
+    #cart-text {
+        display: none;
+    }
+    
+    #acc-text{
+        display: none;
+    }
+
+    #menu-text {
+        display: none;
+    }
+}

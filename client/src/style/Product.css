@@ -1,0 +1,44 @@
+#product-container {
+    max-width: 1024px;
+    border: thick double #dee2e6;
+
+}
+
+#num-counter {
+    width: 1.5rem;
+}
+
+.product-box-img {
+    max-width: 256px;
+    max-height: 256px;
+    object-fit: contain;
+}
+
+.item-btn {
+    width: 64px;
+    height: 64px;
+}
+
+.item-img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.desc-text {
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1080px) {
+    #product-container {
+        border: none;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    #product-container {
+        margin-top: 0rem !important;
+    }
+
+}

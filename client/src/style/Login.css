@@ -1,0 +1,30 @@
+#login-form {
+    width: 100%;
+    max-width: 480px;
+    padding: 32px;
+    margin: auto;
+}
+
+.form-signin #inputEmail {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin #inputPassword {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+#toggle-password {
+    position: absolute;
+    top: 12px;
+    right: 4px;
+    z-index: 9;
+    outline: none !important;
+    box-shadow: none;
+}
