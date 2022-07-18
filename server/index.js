@@ -22,9 +22,10 @@ app.use("/api/users", userRoute);
 app.use("/api/products", productRoute);
 app.use('/api/orders', orderRoute)
 
-app.use(express.static(path.join(__dirname, '/client/build')));
+const resolvedPath = path.resolve();
+app.use(express.static(path.join(resolvedPath, '/client/build')));
 app.get('*', (req, res) =>
-  res.sendFile(path.join(__dirname, '/client/build/index.html'))
+  res.sendFile(path.join(resolvedPath, '/client/build/index.html'))
 );
 
 app.use((err, req, res, next) => {
