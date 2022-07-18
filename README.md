@@ -1,6 +1,8 @@
 # MERN ECommerce Website
 This is a demo of e-commerce website by using MongoDB, ReactJS, Express and NodeJS (MERN Stack).
 
+- Demo Website: https://mern-ecommerce-web.herokuapp.com/
+
 # Features Implemented
 - Login/Register System
 - Add, Remove, Update Cart
