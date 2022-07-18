@@ -6,8 +6,6 @@ const userRoute = require('./routes/user');
 const productRoute = require('./routes/product');
 const orderRoute = require('./routes/order');
 
-const PORT = process.env.PORT;
-
 dotenv.config();
 const app = express();
 
@@ -33,6 +31,7 @@ app.use((err, req, res, next) => {
     res.status(500).json('Error occurred');
 })
 
+const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
     console.log(`This server is running on port ${PORT}`);
 });
