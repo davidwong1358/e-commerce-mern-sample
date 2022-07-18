@@ -1,6 +1,9 @@
 {
   "name": "client",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
