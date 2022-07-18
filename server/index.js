@@ -28,7 +28,8 @@ app.get('*', (req, res) =>
 );
 
 app.use((err, req, res, next) => {
-    res.status(500).json('Error occurred');
+    res.status(500).json(err);
+    console.log(err);
 })
 
 
