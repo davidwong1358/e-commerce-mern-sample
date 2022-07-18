@@ -1,10 +1,11 @@
-import path from 'path';
+const path = require('path');
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const userRoute = require('./routes/user');
 const productRoute = require('./routes/product');
 const orderRoute = require('./routes/order');
+const PORT = process.env.PORT || 8000;
 
 dotenv.config();
 const app = express();
@@ -21,7 +22,6 @@ app.use("/api/users", userRoute);
 app.use("/api/products", productRoute);
 app.use('/api/orders', orderRoute)
 
-const __dirname = path.resolve();
 app.use(express.static(path.join(__dirname, '/client/build')));
 app.get('*', (req, res) =>
   res.sendFile(path.join(__dirname, '/client/build/index.html'))
@@ -31,7 +31,7 @@ app.use((err, req, res, next) => {
     res.status(500).json('Error occurred');
 })
 
-const PORT = process.env.PORT || 8000;
+
 app.listen(PORT, () => {
     console.log(`This server is running on port ${PORT}`);
 });
