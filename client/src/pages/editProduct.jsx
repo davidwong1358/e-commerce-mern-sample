@@ -46,6 +46,7 @@ const EditProduct = () => {
                     headers: { token: `Bearer ${userInfo.accessToken}` },
                 });
             alert('Update Success');
+            window.location.reload();
         } catch (err) {
             alert(JSON.stringify(err, null, 2));
             console.log(err);
