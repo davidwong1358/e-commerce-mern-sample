@@ -167,6 +167,7 @@ const ProductForm = (props) => {
                                                                     errors.sku[index] &&
                                                                     errors.sku[index].itemName &&
                                                                     touched.sku &&
+                                                                    touched.sku[index] &&
                                                                     touched.sku[index].itemName
                                                                 }
                                                             />
@@ -175,6 +176,7 @@ const ProductForm = (props) => {
                                                                 errors.sku[index] &&
                                                                 errors.sku[index].itemName &&
                                                                 touched.sku &&
+                                                                touched.sku[index] &&
                                                                 touched.sku[index].itemName &&
                                                                 (<Form.Control.Feedback type="invalid" tooltip>
                                                                     <XCircleFill className="me-2" />{errors.sku[index].itemName}
@@ -210,6 +212,7 @@ const ProductForm = (props) => {
                                                                         errors.sku[index] &&
                                                                         errors.sku[index].price &&
                                                                         touched.sku &&
+                                                                        touched.sku[index] &&
                                                                         touched.sku[index].price
                                                                     }
                                                                 />
@@ -218,6 +221,7 @@ const ProductForm = (props) => {
                                                                     errors.sku[index] &&
                                                                     errors.sku[index].price &&
                                                                     touched.sku &&
+                                                                    touched.sku[index] &&
                                                                     touched.sku[index].price &&
                                                                     (<Form.Control.Feedback type="invalid" tooltip>
                                                                         <XCircleFill className="me-2" />{errors.sku[index].price}
@@ -256,6 +260,7 @@ const ProductForm = (props) => {
                                                                         errors.sku[index] &&
                                                                         errors.sku[index].discount &&
                                                                         touched.sku &&
+                                                                        touched.sku[index] &&
                                                                         touched.sku[index].discount
                                                                     }
                                                                 />
@@ -264,6 +269,7 @@ const ProductForm = (props) => {
                                                                     errors.sku[index] &&
                                                                     errors.sku[index].discount &&
                                                                     touched.sku &&
+                                                                    touched.sku[index] &&
                                                                     touched.sku[index].discount &&
                                                                     (<Form.Control.Feedback type="invalid" tooltip>
                                                                         <XCircleFill className="me-2" />{errors.sku[index].discount}
@@ -285,6 +291,7 @@ const ProductForm = (props) => {
                                                                         errors.sku[index] &&
                                                                         errors.sku[index].inStock &&
                                                                         touched.sku &&
+                                                                        touched.sku[index] && 
                                                                         touched.sku[index].inStock
                                                                     }
                                                                 />
@@ -293,6 +300,7 @@ const ProductForm = (props) => {
                                                                     errors.sku[index] &&
                                                                     errors.sku[index].inStock &&
                                                                     touched.sku &&
+                                                                    touched.sku[index] && 
                                                                     touched.sku[index].inStock &&
                                                                     (<Form.Control.Feedback type="invalid" tooltip>
                                                                         <XCircleFill className="me-2" />{errors.sku[index].inStock}
