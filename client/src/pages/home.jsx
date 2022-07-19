@@ -19,8 +19,8 @@ const Slider = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-         <Link to='/product/category/rice' className="text-decoration-none">
-          <h1 className='bg-dark text-white w-100'>Rice</h1>
+          <Link to='/product/category/rice' className="text-decoration-none">
+            <h1 className='bg-dark text-white w-100'>Rice</h1>
           </Link>
         </Carousel.Caption>
       </Carousel.Item>
@@ -31,8 +31,8 @@ const Slider = () => {
           alt="Second slide"
         />
         <Carousel.Caption>
-        <Link to='/product/category/noodles' className="text-decoration-none">
-          <h1 className='bg-dark text-white w-100'>Noodles</h1>
+          <Link to='/product/category/noodles' className="text-decoration-none">
+            <h1 className='bg-dark text-white w-100'>Noodles</h1>
           </Link>
         </Carousel.Caption>
       </Carousel.Item>
@@ -44,8 +44,8 @@ const Slider = () => {
           alt="Third slide"
         />
         <Carousel.Caption>
-        <Link to='/product/category/oil' className="text-decoration-none">
-          <h1 className='bg-dark text-white w-100'>Oil</h1>
+          <Link to='/product/category/oil' className="text-decoration-none">
+            <h1 className='bg-dark text-white w-100'>Oil</h1>
           </Link>
         </Carousel.Caption>
       </Carousel.Item>
@@ -57,8 +57,8 @@ const Slider = () => {
           alt="Fourth slide"
         />
         <Carousel.Caption>
-        <Link to='/product/category/sauce' className="text-decoration-none">
-          <h1 className='bg-dark text-white w-100'>Sauce</h1>
+          <Link to='/product/category/sauce' className="text-decoration-none">
+            <h1 className='bg-dark text-white w-100'>Sauce</h1>
           </Link>
         </Carousel.Caption>
       </Carousel.Item>
@@ -70,7 +70,9 @@ const Slider = () => {
           alt="Fifth slide"
         />
         <Carousel.Caption>
-        <Link to='/product/category/spice'><h1 className='bg-dark text-white w-100'>Spice</h1></Link>
+          <Link to='/product/category/spice' className="text-decoration-none">
+            <h1 className='bg-dark text-white w-100'>Spice</h1>
+          </Link>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
@@ -80,10 +82,10 @@ const Slider = () => {
 const Home = () => {
   return (
     <>
-        <Slider />
-        <div className="d-flex flex-column flex-fill justify-content-center welcome-box">
+      <Slider />
+      <div className="d-flex flex-column flex-fill justify-content-center welcome-box">
         <h1 className="text-center">Welcome</h1>
-        </div>
+      </div>
     </>
   );
 
