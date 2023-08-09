@@ -6,6 +6,7 @@ This is a sample code of a simple e-commerce website
 - [Framework] ReactJS (React 18)
 - [Style] Bootstrap 
 - [Form validation] formik + yup
+
 **Backend**
 - [RestAPI] NodeJS + Express
 - [auth] JWT
